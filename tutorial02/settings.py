@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',# we added rest framework
+    'quickstart.apps.QuickstartConfig'#we added quickstart app QuickstartConfig it class of quickstart app files
 ]
 
 MIDDLEWARE = [
